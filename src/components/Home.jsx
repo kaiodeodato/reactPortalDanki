@@ -9,11 +9,11 @@ export default function Home({noticias}) {
     {
       noticias?.map(item =>{
         return (
-          <Link key={item.id}  to={'/noticias/'+ item.slug} >
+          <Link key={item.id}  to={'/reactPortalDanki/noticias/'+ item.slug} >
             <NoticiaPrevia
               titulo={item.titulo} 
               conteudo={item.conteudo}/>
-        </Link>
+          </Link>
 
         )
       })

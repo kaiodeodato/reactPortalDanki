@@ -21,8 +21,8 @@ function App() {
     <Router>
         <Header/>
         <Routes>
-          <Route path="/noticias/:slug" element={<Noticia/>} />
-          <Route path="/" element={<Home noticias={noticias} />} />
+          <Route path="/reactPortalDanki/noticias/:slug" element={<Noticia/>} />
+          <Route path="/reactPortalDanki/" element={<Home noticias={noticias} />} />
         </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <nav className='header'> 
-        <Link to="/">
+        <Link to="/reactPortalDanki/">
             <h2>Portal Danki</h2>
         </Link>
 
