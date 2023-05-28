@@ -18,7 +18,7 @@ export default function Home({noticias}) {
         )
       })
     }
-
+    <Link to={'https://portaldanki.onrender.com/admin/login'}>Admin</Link>
     </div>
   )
 }
